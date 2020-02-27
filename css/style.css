@@ -175,3 +175,33 @@ nav {
      font-family: 'Poppins', sans-serif;
      font-size: 14px;
 }
+
+/* === ipad pro / large tablet === */
+@media screen and (max-width: 1024px){
+
+}
+
+/* === ipad / standard tablet === */
+@media screen and (max-width: 768px) {
+
+}
+/* === large smartphone === */
+@media screen and (max-width: 414px){
+
+}
+/* === small smartphone === */
+@media screen and (max-width: 375px){
+     .logoText {
+          font-size: 30px;
+     }
+     .textHolder {
+          width: 75%;
+          padding-right: 0%;
+     }
+     .textHolder p {
+          font-size: 28px;
+     }
+     .navItem a {
+          font-size: 14px;
+     }
+}
