@@ -291,21 +291,23 @@ nav {
           flex-flow: row nowrap;
           justify-content: space-between;
           height: 120px;
+          width: 100%;
      }
      .logoText {
-          font-size: 40px;
+          font-size: 36px;
           margin: 15px 0px 10px 15px;
      }
      .textHolder {
-          width: 75%;
+          width: 80%;
           padding-right: 0%;
+          margin-left: 8%;
      }
      .textHolder p {
           font-size: 32px;
           width: 100%;
      }
      .navItem {
-          width: 75%;
+          width: 80%;
           padding: 25px 0px;
      }
      .navItem a {
@@ -324,19 +326,16 @@ nav {
           display: none;
      }
      .searchHolder {
-          flex-flow: column wrap;
-          justify-content: center;
-          align-content: center;
-          width: 100%;
+          width: 80%;
      }
      .searchBar p {
-          font-size: 18px;
+          font-size: 24px;
      }
      .searchBar {
-          width: 70%;
+          width: 100%;
      }
-     .searchButton {
-          display: none;
+     .searchButton{
+          font-size: 18px;
      }
      .footer {
           display: none;
@@ -347,5 +346,11 @@ nav {
      .logoText {
           font-size: 34px;
           margin-top: 20px;
+     }
+     .searchBar {
+          text-align: center;
+     }
+     .searchButton {
+          display: none;
      }
 }
