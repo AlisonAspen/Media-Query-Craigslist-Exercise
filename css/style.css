@@ -79,7 +79,6 @@ body {
 .searchHolder{
      clear: both;
      width: 60%;
-     margin: 0 auto;
      display: flex;
      flex-flow: row wrap;
 }
@@ -182,15 +181,29 @@ nav {
 }
 
 /* BEGINNING OF BREAKPOINTS */
-
-/* === ipad / standard tablet === */
-@media screen and (max-width: 768px) {
+/* === ipadPro / large tablet ===*/
+@media screen and (max-width: 1025px){
      .headerBar {
           display: flex;
           flex-flow: row nowrap;
           justify-content: space-between;
           height: 120px;
      }
+     .login {
+          width: 25%;
+          padding: 5px;
+          margin: 30px 15px 40px 0px;
+     }
+     .logoText {
+          margin-left: 25px;
+     }
+     .searchHolder {
+          justify-content: center;
+          align-items: center;
+     }
+}
+/* === ipad / standard tablet === */
+@media screen and (max-width: 768px) {
      .login {
           width: 20%;
           margin: 30px 15px 40px 0px;
@@ -219,6 +232,7 @@ nav {
      .searchButton {
           display: none;
      }
+
 }
 /* === large smartphone === */
 @media screen and (max-width: 415px){
