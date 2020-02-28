@@ -236,6 +236,9 @@ nav {
 }
 /* === ipad / standard tablet === */
 @media screen and (max-width: 768px) {
+     .logoText{
+          font-size: 55px;
+     }
      .login {
           width: 20%;
           margin: 30px 15px 40px 0px;
@@ -250,23 +253,35 @@ nav {
           width: 100%;
      }
      .navItem {
-          width: 65%;
+          width: 80%;
           padding: 25px 0px;
-          margin-left: 5%;
+          margin-left: 9%;
+     }
+     .textHolder {
+          width: 90%;
+          padding: 35px 0px;
+     }
+     .textHolder p {
+          font-size: 60px;
      }
      .searchHolder {
           justify-content: flex-start;
-          width: 78%;
-          margin-left: 0px;
+          width: 80%;
+          margin-left: 10%;
 
      }
      .searchBar {
-          width: 75%;
+          width: 100%;
           padding: 3%;
      }
-     .searchButton {
-          display: none;
+     .searchBar p {
+          font-size: 38px;
      }
+     .footerMenu {
+          width: 100%;
+          bottom: 0px;
+     }
+
 
 }
 /* === large smartphone === */
