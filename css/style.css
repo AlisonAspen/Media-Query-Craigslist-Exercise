@@ -200,21 +200,38 @@ nav {
      .login {
           width: 25%;
           padding: 5px;
-          margin: 30px 15px 40px 0px;
+          margin: 45px 15px 25px 0px;
+     }
+     .language {
+          margin: 45px 10px 25px 10px;
      }
      .logoText {
           margin-left: 25px;
      }
      .textHolder {
           margin-left: 65px;
+          width: 85%;
+     }
+     .textHolder p {
+          font-size: 72px;
      }
      .searchHolder {
           justify-content: center;
           align-items: center;
-          margin-left: 60px;
+          margin-left: 75px;
+          width: 85%;
      }
      .searchButton {
           width: 4.5em;
+     }
+     .navBar {
+          width: 85%;
+          padding: 0.5%;
+     }
+     .navItem {
+          font-size: 40px;
+          width: 20%;
+          padding: 35px 50px;
      }
 }
 /* === ipad / standard tablet === */
@@ -222,6 +239,9 @@ nav {
      .login {
           width: 20%;
           margin: 30px 15px 40px 0px;
+     }
+     .language {
+          display: none;
      }
      .navBar {
           flex-direction: column;
