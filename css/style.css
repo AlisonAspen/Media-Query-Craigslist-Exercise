@@ -195,11 +195,26 @@ nav {
           width: 20%;
           margin: 30px 15px 40px 0px;
      }
+     .navBar {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+     }
+     .navItem {
+          width: 65%;
+          padding: 25px 0px;
+          margin-left: 5%;
+     }
      .searchHolder {
           justify-content: flex-start;
-          width: 75%;
+          width: 78%;
           margin-left: 0px;
 
+     }
+     .searchBar {
+          width: 75%;
+          padding: 3%;
      }
      .searchButton {
           display: none;
@@ -212,10 +227,6 @@ nav {
           flex-flow: row nowrap;
           justify-content: space-between;
           height: 120px;
-     }
-     .navBar {
-          flex-direction: column;
-          width: 100%;
      }
      .logoText {
           font-size: 40px;
